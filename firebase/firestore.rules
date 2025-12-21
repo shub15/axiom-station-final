@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // User data - only accessible by the owner
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // User's projects subcollection
+      match /projects/{projectId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // User's agent traces
+      match /agent_traces/{traceId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      
+      // User's agent spans
+      match /agent_spans/{spanId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    match /users/{userId}/{collection}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+  }
+}

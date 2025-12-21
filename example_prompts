@@ -1,0 +1,35 @@
+# tweeter
+prompt: Search for AI news and tweet the top headline with #AI #Tech hashtags
+run query: tweet the top headline with #AI #Tech hashtags
+
+# gmail
+prompt: Find information about Python best practices and email the key points to my inbox
+run query: Find information about Python best practices and email the key points to maityshubham1510@gmail.com
+
+# reddit
+prompt: Post about the latest AI breakthroughs on Reddit with #AI #Tech hashtags
+run query: Post about the latest AI breakthroughs on Reddit with #AI #Tech hashtags
+
+# Reddit + Notion: Content Curator
+prompt: Create a workflow that finds top programming posts from Reddit and saves them to Notion
+run query: Find the top 5 posts from r/programming today and add them to my Notion "Programming Resources" database
+
+# Reddit + Notion: Research Assistant  
+prompt: Build a workflow that monitors r/MachineLearning and documents findings in Notion
+run query: Get trending ML discussions from r/MachineLearning and create Notion pages in my research workspace
+
+# Reddit + Notion: Weekly Tech Digest
+prompt: Create an agent that tracks r/technology and compiles weekly reports in Notion
+run query: Collect this week's top tech news from r/technology and create a Notion digest page with categories
+
+# Reddit + Notion: Learning Hub
+prompt: Find educational posts from r/learnprogramming and organize in Notion
+run query: Get the best coding tutorials from Reddit this week and add to my Notion learning hub
+
+# Reddit + Notion: Startup Tracker
+prompt: Monitor r/startups and r/Entrepreneur for insights and save to Notion
+run query: Find trending startup discussions on Reddit and update my Notion startup insights database
+
+# Reddit + Twitter + LinkedIn: Tech News
+prompt: Build a workflow that shares breaking tech news from Reddit across social platforms
+run query: Get the top tech story from r/technology and create posts for Twitter (280 chars) and LinkedIn (professional format) with #TechNews #Innovation
