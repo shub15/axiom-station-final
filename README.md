@@ -235,3 +235,6 @@ For questions, issues, or feature requests:
 - Open an issue on GitHub
 - Check the component-specific README files for detailed documentation
 - Review the system architecture section for understanding component interactions
+
+## Canva PPT Link
+   https://www.canva.com/design/DAG4xUGHMAM/5qanwXWvtFXlRi180UN9gg/edit?utm_content=DAG4xUGHMAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
